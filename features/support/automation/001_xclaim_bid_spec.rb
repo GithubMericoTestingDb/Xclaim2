@@ -33,7 +33,11 @@ RSpec.configure do |c|
 	c.include XclaimClaimsPage
 end
 
+<<<<<<< HEAD
 RSpec.describe "001: Place a bid on a claim and retracts", xc_test_001: true do
+=======
+RSpec.describe "001: Place a bid on a claim and retract", xc_test_001: true do
+>>>>>>> fed64ea5a9cb477546605a1c0aff7ee6466dc9b6
 
   begin
   before(:all) do
